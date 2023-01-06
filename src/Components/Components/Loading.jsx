@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Loading = () => {
     return (
-        <div className="flex justify-center px-4 mx-96 max-w-screen-xl pt-10 my-80 py-2">
+        <div className="p-16 lg:p-24 h-96 flex justify-center items-center">
             <section>
                 <div role="status" className="mt-auto ml-auto">
                     <svg aria-hidden="true" className="w-20 h-20 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
