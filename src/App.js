@@ -10,7 +10,7 @@ function App() {
   const WebName = "ToDo-App"
   return (
     <>
-      <main className="pb-16 lg:pb-24">
+      <main className="pb-16 lg:pb-24 min-h-screen">
         <AuthProvider>
           <Routes>
             <Route path='/' element={

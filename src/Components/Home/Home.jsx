@@ -43,8 +43,7 @@ export const Home = ({ WebName }) => {
 
 
   const handleDelete = (name) => {
-    const updateList = listaTareas.filter(item => item.name !== name)
-    setListaTareas(updateList)
+    setListaTareas(listaTareas.filter(item => item.name !== name))
   }
 
   useEffect(() => {
@@ -82,7 +81,7 @@ export const Home = ({ WebName }) => {
           </div>
         </section>
       </div>
-      <div className="flex justify-between px-4 mx-auto max-w-screen-xl pt-2 max-h-screen">
+      <div className="flex justify-between px-4 mx-auto max-w-screen-xl pt-2">
         <section className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert text-white'>
           <div className="bg-gray-800 rounded-lg py-4 pr-4 pl-1 mx-auto max-w-2xl max-h-85 overflow-auto">
             <h2 className='text-center font-bold text-3xl'>Tareas</h2>
